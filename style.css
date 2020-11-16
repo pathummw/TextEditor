@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    background-color: rgb(10, 115, 206);
+    height: 100vh;
+}
+.leftSide{
+    display: flex;
+    flex: 1;
+    background-color: rgb(240, 153, 240);
+    flex-direction: column;
+}
+.rightSide{
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    background-color: rgb(88, 240, 232);
+}
+
+.rightSide textarea{
+    width: 80%;
+    margin: 10vh 5vw;
+}
+.rightSide button{
+    width: 300px;
+    height: 50px;
+    margin-left: 5vw;
+}
+
+.divTag{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(150, 150, 241);
+    display: inline-block;
+    border: 1px solid black;
+    margin: 5px;
+}
